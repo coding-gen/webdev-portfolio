@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>05 - Form</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <script defer src="contact.js"></script>
+  </head>
+  <body>
+    <main>
+      <form action="" class="form">
+        <h1 class="title">Registration Form</h1>
+        <div class="form-element">
+          <label class="input-label" for="username">Username:</label>
+          <input
+            class="input-element"
+            type="text"
+            id="username"
+            class="form-element"
+          />
+        </div>
+        <div class="form-element">
+          <label class="input-label" for="email">Email:</label>
+          <input
+            class="input-element"
+            type="email"
+            id="email"
+            class="form-element"
+          />
+        </div>
+        <div class="form-element">
+          <label class="input-label" for="password">Password:</label>
+          <input class="input-element" type="password" id="password" />
+        </div>
+        <fieldset class="form-element">
+          <legend class="input-label">
+            Would you like to sign up for the newsletter?
+          </legend>
+          <div>
+            <input type="radio" name="newsletter" id="opt-in" value="Yes" />
+            <label for="opt-in">Yes, sign me up</label>
+          </div>
+          <div>
+            <input type="radio" name="newsletter" id="opt-out" value="No" />
+            <label for="opt-out">No, thank you</label>
+          </div>
+        </fieldset>
+        <div class="form-element">
+          <label class="input-label" for="date">Date:</label>
+          <input class="input-element" type="date" id="date" />
+        </div>
+        <div class="form-element">
+          <div>
+            <input
+              type="submit"
+              value="Submit"
+              alt="Submit the form."
+              class="btn btn-primary"
+            />
+            <input
+              type="Reset"
+              value="Reset"
+              alt="Reset the form."
+              class="btn btn-secondary"
+            />
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

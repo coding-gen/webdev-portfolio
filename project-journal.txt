@@ -1,0 +1,57 @@
+project-journal.txt
+
+Genevieve LaLonde
+Introduction to Web Development
+Caterina Paun
+
+Project Journal
+
+This is a journal to describe my progress over time in the final project for Introduction to Web Development.
+
+Week 1:
+I have read over the final project assignment, and started in on the videos for the week. Additionally I have started preparing the content for the project. I collected all the most recent versions of the assignments, whose format is expected in the project. For example: 
+
+* navbar => navbar
+* hello => about
+* cards => previous work
+* cards => projects
+* form => contact
+
+I'll need to modify the cards for work experience and class projects so the pages are similar in style but unique. I have updated all the links to external css and js files and the links in the navbar as well so everything loads and you can follow the navbar links. At this point my next steps will be to change the navbar so it exists on each page, and update the page content from the class homeworks to the project content. I am also trying to think of some API that I would like to include in my site to get more practice implementing that since I liked it. Additionally I'll modify the card layout with flexbox/grid to get more practice in that area because I feel like I could use more practice. I'm also looking for pictures to include in my site so it looks more lively.
+
+Content
+
+I am currently going back to school to get my Masters in Computer Science, with an expected graduation in June of 2023. I am combining my experience in databases and human languages, to specialize in Machine Learning for Natural Language Processing. The classes I am taking will help me to become a well rounded Data Engineer, and I hope to work in the area of automated translation of human languages. I am using final projects in my classes in order to build experience in the areas of NLP and translation.
+
+Some highlights of my skills and work experience:
+
+    Data Engineering
+    Python for Data Science
+    Database Performance and Query Processing
+    Distributed Cloud SQL Database Administration
+    Linux Server Performance
+    Human Languages (English, German, French, Spanish)
+    Training and Documentation
+    Community Building
+
+
+I've won awards in previous roles for building and delivering trainings, for demonstrating remarkable growth and learning, and for ensuring customer success.
+
+I'm also great at gardening and dog training! Ask me about home grown tomatoes to learn more (at your own risk)!
+
+
+
+Project: Data Engineering Pipeline
+
+I created a data pipeline to take bus transit location data from a web server, produce messages to a kafka cluster, consume then into postgres, and visualize the results of analytical queries. This project also included data cleaning, validation, and transformation at specific points in the pipeline, as well as logging for any discarded data to allow confirmation of pipeline behavior. Once the data was actionable, this allowed us to answer questions that the transit agency (CTran in Vancouver Washington) had about the effectiveness of recent projects to improve bus timeliness. This project was coded in python with some simple shell scripts, operated on kafka and postgres, and was built on top of a linux server in GCP.
+github link (private): https://github.com/coding-gen/dataeng/tree/main/project
+
+Project: Cloud and Cluster Database Management Spark
+
+This project implemented Portland highway transit data in Spark. We focussed on loading and cleaning the data in Spark itself, and then running analytical queries on it that answered questions about drive time, speed, and path. We also experimented with Spark specific performance features, such as partition count and when to persist data. 
+github link (private): https://github.com/coding-gen/cs588/tree/main/spark/project
+
+Project: Database Management: Benchmarking SingleStore Keys and Indexes
+
+In this project I compared the effectiveness of different types of keys and indexes in a moder SQL database: SingleStore. I used sample sales data, and tested the performance of different types of join queries, given different types of keys, indexes, and horizontal and vertical table sharding strategies. This work was performed entirely in a SingleStore database, which is compatible with MySQL commands and runs on a linux server.
+github link (private): https://github.com/coding-gen/cs588/tree/main/spark/project
