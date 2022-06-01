@@ -15,14 +15,9 @@ image.style.borderRadius = '50%';
 content.append(image);
 
 let para1 = document.createElement('p');
-let text1 = document.createTextNode(`Hello! My name is Genevieve and I'm in a web development class.Welcome to my site! When I'm not crafting state of the art webpages, I
+let text1 = document.createTextNode(`Hello! My name is Genevieve and I'm in a web development class. Welcome to my site! When I'm not crafting state of the art webpages, I
 enjoy gardening and walking my two dogs.`);
 para1.classList.add('introText');
-
-// para1.style.fontWeight = 'bold';
-
-let para2 = document.createElement('p');
-let text2 = document.createTextNode(``)
 
 content.append(para1);
 para1.append(text1);
