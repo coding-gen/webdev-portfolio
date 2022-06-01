@@ -4,6 +4,10 @@ fieldset {
     padding: 0px;
 }
 
+textarea {
+    resize: vertical;
+}
+
 .form {
     margin: 40px auto;
     border: 1px solid var(--gray4);
