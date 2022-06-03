@@ -45,7 +45,7 @@ function handleSubmit(event) {
     }
     console.groupEnd();
   } else {
-    console.warn("You must enter some data to submit this form.")
+    alert("You must enter some data to submit this form.");
   }
 
 

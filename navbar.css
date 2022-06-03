@@ -25,6 +25,5 @@ body {
 }
 
 .nav-link:hover {
-  background-color: var(--orange);
-  color: var(--black)
+  color: var(--cyan)
 }
