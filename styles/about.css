@@ -1,0 +1,38 @@
+.introText::first-line {
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  padding: 1em;
+}
+
+.nav-list {
+  list-style-type: none;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+}
+
+.list-item {
+  display: inline-block;
+  background-color: var(--green);
+  margin: 0px -3px;
+}
+
+.nav-link {
+  text-decoration: none;
+  display: block;
+  color: var(--white);
+  padding: 1em;
+}
+
+.nav-link:hover {
+  background-color: var(--orange);
+  color: var(--black)
+}

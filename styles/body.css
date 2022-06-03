@@ -1,0 +1,24 @@
+.bodyHome {
+  background-image: url('../pics/green/fern.jpeg');
+  background-size: 100em;
+}
+
+.bodyProject {
+  background-image: url('../pics/green/forsythia.jpeg');
+  background-size: 100em;
+}
+
+.bodyExperience {
+  background-image: url('../pics/green/hosta1.jpeg');
+  background-size: 100em;
+}
+
+.bodyEducation {
+  background-image: url('../pics/green/snapdragon.jpeg');
+  background-size: 100em;
+}
+
+.bodyContact {
+  background-image: url('../pics/green/mix.jpeg');
+  background-size: 100em;
+}
