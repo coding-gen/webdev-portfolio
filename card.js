@@ -7,7 +7,7 @@ $(document).ready(function () {
       .append($('<div>')
         .css({
           margin: '10px',
-          width: '200px',
+          width: '400px',
         })
         .addClass('figure')
         .append($('<img>')
@@ -23,7 +23,7 @@ $(document).ready(function () {
           .css({
             padding: '3px',
             textAlign: 'center',
-            width: '185px',
+            width: '384px',
           })
         ))
   };

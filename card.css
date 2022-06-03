@@ -1,14 +1,35 @@
+.bodyProject {
+  background-image: url('pics/green/IMG_3580.jpeg');
+  background-size: 100em;
+}
+
+.darkGreen {
+  color: var(--greenDark);
+}
+
+.mainBox {
+  background-color: var(--greenDusky);
+  border-style: solid;
+  border-width: 0.1em;
+  border-radius: 5px;
+  border-color: var(--greenDark);
+  border: 0.5rem solid var(--greenDark);
+
+}
+
+
 #loading {
   width: 80px;
   height: 80px;
 }
 
 .figure {
-  border: 0.5rem solid var(--white);
+  border: 0.5rem solid var(--greenDark);
+  background-color: var(--greenPale);
 }
 
 .figure:hover {
-  border: 0.5rem solid var(--purple);
-  background-color: var(--purple);
-  color: var(--white);
+  border: 0.5rem solid var(--greenDark);
+  /* background-color: var(--greenGreen); */
+  color: var(--lightteal);
 }

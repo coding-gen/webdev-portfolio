@@ -19,6 +19,14 @@
   --red: #ff0000;
   --orange: #ffa500;
   --green: #006400;
+  --greenDark: #1E5631;
+  --greenBright: #A4DE02;
+  --greenMedBright: #76BA1B;
+  --greenGreen: #4C9A2A;
+  --greenCreamy: #ACDF87;
+  --greenDusky: #68BB59;
+  --greenPale: #c8f0ab;
+
 }
 
 body {
