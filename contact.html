@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <title>Contact</title>
-    <link rel="icon" type="image/jpg" href="./pics/icons/cartoonDog.JPG" />
+    <link rel="icon" type="image/jpg" href="./pics/icons/sprout.jpeg" />
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/body.css" />
     <link rel="stylesheet" href="styles/contact.css" />
@@ -18,9 +18,9 @@
     <section id="bar"></section>
     <main class="mainBox w-75 mx-auto my-5 p-3">
       <form action="" class="form">
-        <h1 class="title">Contact Me</h1>
+        <h1 class="darkGreen title text-center my-5 pageName">Contact Me</h1>
         <div class="form-element">
-          <label class="input-label" for="Name">Username:</label>
+          <label class="input-label" for="Name">Name:</label>
           <input
             class="input-element"
             type="text"
@@ -39,15 +39,44 @@
         </div>
         <fieldset class="form-element">
           <legend class="input-label">
-            Would you like to sign up for my newsletter?
+            Would you like gardening tips?
           </legend>
           <div>
-            <input type="radio" name="newsletter" id="opt-in" value="Yes" />
+            <input type="radio" name="newsletter" id="opt-in" value="Yes"/>
             <label for="opt-in">Yes, sign me up</label>
           </div>
           <div>
-            <input type="radio" name="newsletter" id="opt-out" value="No" />
+            <input type="radio" name="newsletter" id="opt-out" value="No"/>
             <label for="opt-out">No, thank you</label>
+          </div>
+        </fieldset>
+        <fieldset class="form-element">
+          <legend class="input-label">
+            What types of gardening are you interested in?
+          </legend>
+          <div>
+            <input type="checkbox" name="gardenCategories" id="veggies" />
+            <label for="veg">Organic vegetables</label>
+          </div>
+          <div>
+            <input type="checkbox" name="gardenCategories" id="fruitTrees"/>
+            <label for="fruitTrees">Fruit tree pruning and care</label>
+          </div>
+          <div>
+            <input type="checkbox" name="gardenCategories" id="berries"/>
+            <label for="berries">Fruit bearing canes</label>
+          </div>
+          <div>
+            <input type="checkbox" name="gardenCategories" id="bees"/>
+            <label for="bees">Flowers that attract bees</label>
+          </div>
+          <div>
+            <input type="checkbox" name="gardenCategories" id="goodBugs"/>
+            <label for="goodBugs">Beneficial insects</label>
+          </div>
+          <div>
+            <input type="checkbox" name="gardenCategories" id="pnw"/>
+            <label for="pnw">Gardening in the Pacific Northwest</label>
           </div>
         </fieldset>
         <div class="form-element">
@@ -55,10 +84,10 @@
           <input class="input-element" type="date" id="date" />
         </div>
         <div class="form-element">
-          <label class="input-label" for="reason"
-            >What are you contacting about?</label
+          <label class="input-label" for="question"
+            >Any specific questions?</label
           >
-          <textarea class="reason" id="reason" rows="4" cols="45"></textarea>
+          <textarea class="question" id="question" rows="4" cols="45"></textarea>
         </div>
         <div class="form-element">
           <div>

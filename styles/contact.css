@@ -13,7 +13,6 @@ fieldset {
 
 .title {
     text-align: center;
-    text-transform: uppercase;
 }
 
 .form-element {
@@ -27,7 +26,7 @@ fieldset {
 .input-element {
     display: block;
     float: right;
-    width: 70%;
+    width: 80%;
     border: 1px solid var(--gray4);
     height: 24px;
 }
