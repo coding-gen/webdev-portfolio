@@ -40,6 +40,7 @@ $(document).ready(function () {
       type: 'GET',
       url: url,
       success: (data) => {
+        console.log(data)
         data.drinks.forEach((item) => {
           addDrinkToDOM(item);
         })

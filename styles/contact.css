@@ -5,14 +5,13 @@ fieldset {
 }
 
 .form {
-    margin: 40px auto;
-    border: 1px solid var(--gray4);
-    border-radius: 0.5rem;
+    margin: 10px auto;
     padding: 1rem;
 }
 
 .title {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .form-element {
@@ -49,15 +48,18 @@ fieldset {
 }
 
 .btn-secondary {
-    background-color: var(--white);
-    border: 1px solid var(--green);
+    background-color: var(--greenCreamy);
+    color: var(--greenDark);
+    border: 3px solid var(--greenDark);
 }
 
 .btn-primary:hover {
-    background-color: var(--orange);
-    color: var(--black);
+    border: 3px solid var(--cyan);
+    font-weight: bold;
 }
 
 .btn-secondary:hover {
-    border: 1px solid var(--orange);
+    border: 3px solid var(--cyan);
+    font-weight: bold;
+
 }

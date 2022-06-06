@@ -4,11 +4,13 @@
 }
 
 .figure {
-  border: 0.5rem solid var(--greenDark);
+  /* border: 0.5rem solid var(--greenDark); */
   background-color: var(--greenPale);
+  /* border: 1px solid #1E5631; */
+
+  box-shadow: 3px 4px 8px #1E5631; 
 }
 
 .figure:hover {
-  border: 0.5rem solid var(--greenDark);
   color: var(--lightteal);
 }

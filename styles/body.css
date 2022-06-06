@@ -1,37 +1,79 @@
+body {
+  margin: 0;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  padding: 1em;
+}
+
 .bodyHome {
   background-image: url('../pics/green/fern.jpeg');
-  background-size: 100em;
 }
 
 .bodyProject {
   background-image: url('../pics/green/forsythia.jpeg');
-  background-size: 100em;
 }
 
 .bodyExperience {
   background-image: url('../pics/green/hosta1.jpeg');
-  background-size: 100em;
 }
 
 .bodyEducation {
   background-image: url('../pics/green/snapdragon.jpeg');
-  background-size: 100em;
 }
 
 .bodyContact {
   background-image: url('../pics/green/mix.jpeg');
-  background-size: 100em;
 }
 
 .darkGreen {
-  color: var(--greenDark);
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.pageName {
+  text-align: center;
+
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .mainBox {
+  display: block;
+  width: 85%;
+  margin: 5 auto;
+  padding: 20px;
   background-color: var(--greenDusky);
   border-style: solid;
   border-width: 0.1em;
   border-radius: 5px;
   border-color: var(--greenDark);
   border: 0.5rem solid var(--greenDark);
+}
+
+.mainContact {
+  width: 534px;
+}
+
+.mainHome {
+  padding: 20px 100px;
+}
+
+.introText::first-line {
+  font-weight: bold;
+}
+
+.iconLink {
+  color: var(--greenDark);
+  margin: 12px;
 }

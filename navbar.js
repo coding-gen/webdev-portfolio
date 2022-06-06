@@ -19,9 +19,10 @@ $(document).ready(function () {
   const fetchNav = () => {
     $('#bar')
       .append($('<nav>')
+
         .append($('<ul/>')
-        .addClass('nav-list')
-        .attr('id', `navList`))
+          .addClass('nav-list')
+          .attr('id', `navList`))
       )
     const pages = ['Home', 'Projects', 'Experience', 'Education', 'Contact']
     pages.forEach((item) => {
