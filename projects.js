@@ -27,7 +27,8 @@ $(document).ready(function () {
         image: "pics/projects/trimet.JPG",
         alt: "A picture of a TriMet bus.",
         description: "As a fun add-on, I included this page which queries the TriMet API for the arrivals of commonly used stops on the Portland State University campus.",
-        link: "https://github.com/coding-gen/webdev-portfolio/blob/main/projects.html"
+        link: "trimet.html"
+        // link: "https://github.com/coding-gen/webdev-portfolio/blob/main/projects.html"
       }
     ]
   }
@@ -45,15 +46,30 @@ $(document).ready(function () {
           .attr('alt', prj.alt)
           .attr('height', '185px')
         )
-        .append($('<h3>')
-          .text(prj.name)
-          .attr('padding', '10px')
+        .append($('<a/>')
+          .attr('href', prj.link)
           .css({
-            padding: '3px',
-            textAlign: 'center',
-            width: '384px',
+            color: 'inherit',
+            textDecoration: 'inherit'
           })
-        ))
+          .append($('<h3>')
+            .text(prj.name)
+            .addClass('headerLink')
+            .css({
+              padding: '10px 20px',
+              textAlign: 'center',
+              width: '384px',
+            })
+          )
+        )
+        .append($('<p/>')
+          .text(prj.description)
+          .css({
+            padding: '0 25px',
+            textAlign: 'left'
+          })
+        )
+      )
   };
 
   const fetchData = () => {

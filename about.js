@@ -1,4 +1,3 @@
-// Add your code here
 let main = document.querySelector('.mainBox');
 let content = document.createElement('div');
 content.setAttribute('id', 'content');
@@ -13,8 +12,7 @@ image.setAttribute('height', '300');
 image.setAttribute('width', '300');
 image.setAttribute('alt', 'a welcoming picture of Genevieve');
 image.style.borderRadius = '50%';
-image.style.border = '1px solid #1E5631';
-image.style.boxShadow = '3px 4px 8px #1E5631';
+image.classList.add('imgShadow');
 content.append(image);
 
 let para1 = document.createElement('p');

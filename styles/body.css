@@ -30,8 +30,7 @@ main {
   background-image: url('../pics/green/mix.jpeg');
 }
 
-.darkGreen {
-}
+.darkGreen {}
 
 .textLeft {
   text-align: left;
@@ -76,4 +75,48 @@ main {
 .iconLink {
   color: var(--greenDark);
   margin: 12px;
+}
+
+.imgShadow {
+  border: 1px solid #1E5631;
+  box-shadow: 3px 4px 8px #1E5631;
+}
+
+#loading {
+  width: 80px;
+  height: 80px;
+}
+
+.figure {
+  background-color: var(--greenPale);
+  box-shadow: 3px 4px 8px #1E5631;
+}
+
+.arrivalFigure {
+  background-color: var(--greenPale);
+  box-shadow: 3px 4px 8px #1E5631;
+  padding: 0 20px;
+  width: 250px;
+}
+
+.headerLink:hover {
+  color: var(--lightteal);
+
+}
+
+.showSection {
+  border: 2px solid var(--greenDark);
+  margin: 20px;
+}
+
+.transitMethod {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+
+#arrivalTime{
+  margin-top: -25px;
 }
