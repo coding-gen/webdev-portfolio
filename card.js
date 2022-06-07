@@ -13,7 +13,6 @@ $(document).ready(function () {
         .append($('<img>')
           .attr('src', drink.strDrinkThumb)
           .attr('alt', `A picture of the ${drink.strDrink} drink.`)
-          .attr('width', '185px')
           .append($('<h3>')
             .text(drink.strDrink)
             .attr('padding', '10px')))

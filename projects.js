@@ -38,7 +38,7 @@ $(document).ready(function () {
       .append($('<div>')
         .css({
           margin: '10px',
-          width: '400px',
+          width: '390px',
         })
         .addClass('figure')
         .append($('<img>')

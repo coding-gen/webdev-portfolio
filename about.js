@@ -1,7 +1,7 @@
 let main = document.querySelector('.mainBox');
 let content = document.createElement('div');
 content.setAttribute('id', 'content');
-content.style.width = '800px';
+content.style.width = '80%';
 content.style.margin = '0 auto';
 content.style.textAlign = 'center';
 main.append(content);

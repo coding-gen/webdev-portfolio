@@ -3,6 +3,8 @@ project-journal.txt
 Genevieve LaLonde
 Introduction to Web Development
 Caterina Paun
+site: https://coding-gen.github.io/webdev-portfolio/index.html
+repo: https://github.com/coding-gen/webdev-portfolio
 
 Project Journal
 
@@ -49,8 +51,11 @@ I've been experimenting with the nav bar more. I want it to float on the right a
 
 I have also started adding the actual content on the card pages. I figured out how to properly structure and access my data as an object so I can create the cards programaticaly. I copied the structure of the drinks, though I know any JSON should work. I think this is good practice to use JQuery and objects, instead of setting it manually in the HTML. At the very least it prevents me from making mistakes from copoying things wrong. On that note, I deleted the Education and Experience pages because their content had diverged Projects and I could not figure out why. I recreated them from Projects, and also saved a template page for the future.
 
-6/4
-At this point I need to wrap up my project since it is due tomorrow. I'm going to continue adding content, and add in small touches like icons which link to github or linkedin. If I have time I may modify the card style. I like the hovering shadow type effect I've applied on the picture on the About page. Alternatively I think cards with no border at all seem more clean cut. I also still want to tackle setting a different header behavior for smaller media. If I have time, I'll also add the TriMet API as another project, just so I can work with an API on the site. I may set the background of my project pages as red/purple plant pictures, as a contrast to all the green clorophil of the rest of the site. 
+6/5
+At this point I am wrapping up my project since it is due tomorrow. I have finished adding content, and added in small touches like icons which link to github or linkedin. I modified the card style to use shadow like on my About Me page because I like it better than the borders as from the card homework. I did not get a chance to try implementing a hamburger menu on smaller page sizes. However I did add the TriMet API as another project, just so I could work with an API on the site. This took quite a while, and I had a problem with dynamically creating the containers for each type of transit. I think it was due to asyncronicity when passing the section class name to the addTransitToDOM method. It always appended all arrivals to the last section. In the end I manually created the sections ahead of time, and this allowed me to pass the section names as a parameter effectively.
+
+6/6
+I worked on some final touches, and realized that I had hard coded width as pixels in several locations, which did not scale well on smaller page sizes. I changed this to percentages as the page width gets very small. It could still use some work but I'm out of time. 
 
 
 

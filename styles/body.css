@@ -61,7 +61,7 @@ main {
 }
 
 .mainContact {
-  width: 534px;
+  width: 70%;
 }
 
 .mainHome {
@@ -90,6 +90,7 @@ main {
 .figure {
   background-color: var(--greenPale);
   box-shadow: 3px 4px 8px #1E5631;
+  width: 185px;
 }
 
 .arrivalFigure {
@@ -117,6 +118,26 @@ main {
   text-align: center;
 }
 
-#arrivalTime{
+#arrivalTime {
   margin-top: -25px;
+}
+
+@media only screen and (max-width: 720px) {
+  .mainBox {
+    width: 99%;
+  }
+
+  .form {
+    margin: 10px auto;
+    padding: 1rem;
+    width: 99%;
+  }
+
+  .results>* {
+    width: 90%;
+  }
+
+  .figure>* {
+    width: 90%;
+  }
 }

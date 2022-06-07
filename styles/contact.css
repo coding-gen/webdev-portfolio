@@ -7,6 +7,7 @@ fieldset {
 .form {
     margin: 10px auto;
     padding: 1rem;
+    width: 75%;
 }
 
 .title {
@@ -16,6 +17,10 @@ fieldset {
 
 .form-element {
     margin-bottom: 2rem;
+}
+
+.text-area {
+    width: 100%
 }
 
 .input-label {
@@ -28,6 +33,7 @@ fieldset {
     width: 80%;
     border: 1px solid var(--gray4);
     height: 24px;
+    margin-top: 5px;
 }
 
 .reason {
@@ -62,4 +68,16 @@ fieldset {
     border: 3px solid var(--cyan);
     font-weight: bold;
 
+}
+
+@media only screen and (max-width: 720px) {
+    .mainContact {
+        width: 99%;
+    }
+
+    .form {
+        margin: 10px auto;
+        padding: 1rem;
+        width: 99%;
+    }
 }
